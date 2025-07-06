@@ -40,7 +40,7 @@ export default function HeroSection() {
               className="text-4xl font-bold mb-2"
               variants={childVariants}
             >
-              {personalInfo.name}{" "}
+              Hi, I'm {personalInfo.name}{" "}
               <span className="inline-block animate-pulse">✨</span>
             </motion.h1>
 
@@ -48,21 +48,13 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Web Developer
             </motion.p>
 
             <motion.div
               className="flex flex-col gap-2 items-center md:items-start"
               variants={containerVariants}
             >
-              <motion.div
-                className="flex items-center text-sm text-muted-foreground"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
-              >
-                <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
-              </motion.div>
 
               <motion.a
                 href={`mailto:${personalInfo.email}`}
@@ -71,7 +63,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                Email
               </motion.a>
 
               <motion.a
@@ -83,7 +75,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                GitHub
               </motion.a>
 
               <motion.a
@@ -95,7 +87,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                LinkedIn
               </motion.a>
             </motion.div>
           </div>
@@ -109,7 +101,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/profile2.jpg"
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -119,21 +111,49 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
-            </p>
+          <div className="hidden">
+            <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
+              <div className="flex flex-col gap-2">
+                <span>
+                A creative web developer blending design and development to craft engaging digital experiences.
+                I graduated with a BSc in Digital Design and Web Development from Solent University in 2022, where I was honoured with the British Computer Society award for Digital Development.
+                </span>
+              </div>
+            </div>
           </div>
         </MotionWrapper>
+
+        <MotionWrapper>
+          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
+            <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
+              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
+              <div className="flex flex-col gap-2">
+                <span>
+                  With a background in both design and code, I thrive in environments where creativity meets functionality.
+                </span>
+                <span>
+                  I love collaborating with designers, strategists, and storytellers to bring ideas to life—whether it’s building a visually striking website, refining UX, or solving complex front-end challenges. 🚀
+                </span>
+              </div>
+            </div>
+          </div>
+        </MotionWrapper>
+
+        <MotionWrapper>
+          <div className="hidden">
+            <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
+              <div className="flex flex-col gap-2">
+                <span>
+                  How did it all start?
+                  When I was 11, I created a blog and wanted to give it a custom look. Armed with NotePad and a Paint-made layout, I wrote my first lines of HTML and CSS. It wasn’t perfect, but it worked—and I was hooked.
+                  That same excitement still drives me today. Every project is a chance to learn, refine, and create something both beautiful and purposeful.
+                  Outside of code, I’m a runner—training both my body and mind through movement, discipline, and focus.
+                </span>
+              </div>
+            </div>
+          </div>
+        </MotionWrapper>
+
       </div>
     </section>
   );
