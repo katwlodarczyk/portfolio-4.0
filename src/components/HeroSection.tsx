@@ -93,9 +93,8 @@ export default function HeroSection() {
           </div>
 
           <motion.div
-            className="mt-6 md:mt-0 flex justify-center"
+            className="mt-6 flex justify-center"
             variants={childVariants}
-            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
@@ -103,7 +102,7 @@ export default function HeroSection() {
               <img
                 src="/profile2.jpg"
                 alt="Profile"
-                className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
+                className="w-[250px] md:w-[300px] rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
               />
             </div>

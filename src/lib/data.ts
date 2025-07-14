@@ -95,22 +95,68 @@ export const skills = {
   ],
 };
 
-// export const projects = [
-//   {
-//     title: "",
-//     github: "",
-//     description: [
-     
-//     ],
-//   },
-//   {
-//     title: "",
-//     github: "",
-//     description: [
-      
-//     ],
-//   },
-// ];
+export const projects = [
+  {
+    image: "/projects/haircare-scan.png",
+    title: "Haircare Scan",
+    website: "https://haircare-scan.web.app/",
+    github: "https://github.com/katwlodarczyk/haircare-scan",
+    description: [
+      "Vue3 + Firebase + TailwindCSS + Tesseract.js",
+      "PWA ingredients list scanner",
+      "Won British Computer Society award for Digital Development",
+      "Scan ingredients list from haircare products and get a detailed analysis of the ingredients",
+    ],
+  },
+  {
+    image: "/projects/student-cookbook.png",
+    title: "Student Cookbook",
+    website: "https://cookbook-53824.web.app/login",
+    github: "https://github.com/katwlodarczyk/student-cookbook",
+    description: [
+      "React + Firebase + TailwindCSS",
+      "Collection of recipes with step by step guide, shopping list and a weekly planner.",
+    ],
+  },
+  {
+    image: "/projects/poi.png",
+    title: "Points of Interest",
+ 
+    github: "https://github.com/katwlodarczyk/Points-Of-Interest-web-app",
+    description: [
+      "Express.js, TailwindCSS, and JavaScript",
+      "A Web App that allows users to search for points of interest in a given area",
+    ],
+  },
+  {
+    image: "/projects/interaction-design.png",
+    title: "Interaction Design",
+    website: "https://katwlodarczyk.github.io/interaction-design/",
+    github: "https://github.com/katwlodarczyk/interaction-design",
+    description: [
+      "React",
+      "Reusable components",
+    ],
+  },
+  {
+    image: "/projects/toggle.png",
+    title: "Toggle Switch",
+    github: "https://github.com/katwlodarczyk/toggle-switch-react",
+    description: [
+      "React + TailwindCSS",
+      "Light/Dark toggle switch component",
+    ],
+  },
+  {
+    image: "/projects/databases.png",
+    title: "Introduction to Databases",
+    github: "https://github.com/katwlodarczyk/databases-swd406",
+    description: [
+      "Python",
+      "Database integration",
+    ],
+  },
+];
 
 export const awards = [
   {

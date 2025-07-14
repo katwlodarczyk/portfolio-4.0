@@ -17,7 +17,7 @@ export default function Footer() {
             whileHover={{ scale: 1.01 }}
           >
             &copy; {new Date().getFullYear()} {personalInfo.name}. All rights
-            reserved. ✨
+            reserved. 
           </motion.p>
         </motion.div>
       </div>
