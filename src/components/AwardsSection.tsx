@@ -9,7 +9,7 @@ export default function AwardsSection() {
   return (
     <section
       id="awards"
-      className="py-12 bg-gradient-to-b from-background to-muted/10"
+      className="py-12 bg-gradient-to-b to-muted/10"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
@@ -33,27 +33,41 @@ export default function AwardsSection() {
                   <h3 className="font-medium">{award.name}</h3>
                 </div>
                 <div className="flex flex-col space-y-2 mt-auto">
-                  <motion.span
-                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit"
+                  <motion.div
+                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit flex flex-row gap-2"
+                    whileHover={{ scale: 1.05 }}
+                  > 
+                    <span>
+                      🏢 
+                    </span>
+                    <span>
+                      {award.issuer}
+                    </span>
+                  </motion.div>
+                  <motion.div
+                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit flex flex-row gap-2"
                     whileHover={{ scale: 1.05 }}
                   >
-                    🏢 {award.issuer}
-                  </motion.span>
-                  <motion.span
-                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit"
-                    whileHover={{ scale: 1.05 }}
-                  >
-                   📅 {award.date}
-                  </motion.span>
+                   <span>
+                    📅 
+                    </span>
+                    <span>
+                      {award.date}
+                    </span>
+                  </motion.div>
 
-                
-                  <motion.span
-                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit"
+
+                  <motion.div
+                    className="text-xs text-muted-foreground/80 bg-background/50 py-1 rounded-md w-fit flex flex-row gap-2"
                     whileHover={{ scale: 1.05 }}
                   >
-                    {award.type === "International" ? "🌎 " : "🇬🇧 "}
-                    {award.type}
-                  </motion.span>
+                    <span>
+                      {award.type === "International" ? "🌎 " : "🇬🇧 "}
+                    </span>
+                    <span>
+                      {award.type}
+                    </span>
+                  </motion.div>
                 </div>
               </GlassCard>
             </MotionWrapper>

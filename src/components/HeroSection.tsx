@@ -27,7 +27,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="py-16 md:py-24 relative overflow-hidden">
+    <section className="pt-24 pb-16 md:py-24 relative overflow-hidden">
       <div className="container max-w-4xl mx-auto px-6 md:px-4 relative z-10">
         <motion.div
           className="flex flex-col md:flex-row md:items-center justify-between mb-8"
@@ -128,7 +128,7 @@ export default function HeroSection() {
             <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               <div className="flex flex-col gap-2">
-                <span>
+                <span className="text-lg font-semibold">
                   With a background in both design and code, I thrive in environments where creativity meets functionality.
                 </span>
                 <span>

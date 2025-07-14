@@ -13,7 +13,7 @@ export const workExperience = [
     position: "Web Developer",
     period: "Jan 2022 - Present",
     achievements: [
-      "Developed and maintained multiple web applications using Statamic, Laravel, and Vue.js",
+      "Developed and maintained multiple web applications using Statamic, Laravel, and other modern web technologies",
       "Collaborated with cross-functional teams to deliver high-quality software solutions",
       "Implemented responsive designs and optimized user interfaces for better user experience",
       "Lead a team of developers in a Wordpress project, enhancing leadership and project management skills",
@@ -24,11 +24,13 @@ export const workExperience = [
     company: "hinge.",
     location: "Southampton, England",
     position: "Junior Frontend Developer",
-    period: "uly 2020 - Dec 2021",
+    period: "July 2020 - Dec 2021",
     achievements: [
       "Developed a responsive web application using Vue.js and Tailwind CSS",
       "Collaborated with designers to implement user-friendly interfaces",
+      "Developed multiple web applications using Wordpress",
       "Enhanced understanding of web development best practices and coding standards",
+      "Built a mobile applicatations using Ionic, improving cross-platform development skills",
       "Contributed to team discussions and code reviews, receiving constructive feedback",
       "Developed a keen eye for detail and user experience design",
     ],
