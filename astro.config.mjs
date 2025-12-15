@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://katwlodarczyk.com',
-  base: 'portfolio-4.0',
+  // base: 'portfolio-4.0', // Temporarily removed to fix hydration issues
   vite: {
       plugins: [tailwindcss()],
   },
