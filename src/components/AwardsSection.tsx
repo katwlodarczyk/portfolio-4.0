@@ -13,8 +13,11 @@ export default function AwardsSection() {
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🏆 Awards
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left font-literata">
+            🏆 
+            <span className="italic ml-2">
+              Awards
+            </span>
           </h2>
         </MotionWrapper>
 
@@ -30,7 +33,7 @@ export default function AwardsSection() {
                   >
                     <Trophy className="h-4 w-4 text-white" />
                   </motion.div>
-                  <h3 className="font-medium">{award.name}</h3>
+                  <h3 className="font-medium font-literata">{award.name}</h3>
                 </div>
                 <div className="flex flex-col space-y-2 mt-auto">
                   <motion.div

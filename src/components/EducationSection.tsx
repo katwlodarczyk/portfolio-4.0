@@ -12,8 +12,11 @@ export default function EducationSection() {
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🎓 Education
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left font-literata">
+            🎓 
+            <span className="italic ml-2">
+              Education  
+            </span>
           </h2>
         </MotionWrapper>
 

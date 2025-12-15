@@ -12,7 +12,7 @@ export default function ExperienceSection() {
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
+          <h2 className="text-2xl font-literata font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
             <motion.span
               className="inline-block mr-2"
               initial={{ rotate: 0 }}
@@ -22,7 +22,9 @@ export default function ExperienceSection() {
             >
               💼
             </motion.span>{" "}
-            Work Experience
+            <span class="italic">
+              Work Experience
+            </span>
           </h2>
         </MotionWrapper>
         <div className="mb-8">
@@ -47,19 +49,19 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <Briefcase className="h-4 w-4 text-purple-500" />
                   </div>
-                  <h4 className="text-sm font-medium">Key Achievements</h4>
+                  <h4 className="text-sm font-medium font-literata">Key Achievements</h4>
                 </div>
                 <ul className="list-none ml-4 space-y-2 text-sm">
                   {job.achievements.map((achievement, i) => (
                     <motion.li
                       key={i}
-                      className="text-muted-foreground relative pl-6"
+                      className="text-muted-foreground relative ml-6"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.3, delay: 0.1 * i }}
                       viewport={{ once: true }}
                     >
-                      {achievement}
+                      <span>✴︎ </span>{achievement}
                     </motion.li>
                   ))}
                 </ul>

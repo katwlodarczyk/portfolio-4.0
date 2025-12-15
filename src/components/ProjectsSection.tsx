@@ -17,8 +17,11 @@ export default function ProjectsSection() {
     <section id="projects" className="py-12 relative">
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🚀 Personal Projects
+          <h2 className="text-2xl font-bold font-literata mb-8 text-center md:text-left">
+            🚀 
+            <span className="italic ml-2">
+              Personal Projects
+            </span>
           </h2>
         </MotionWrapper>
 
@@ -32,7 +35,7 @@ export default function ProjectsSection() {
                     alt={project.title}
                     className="w-full aspect-[16/10] object-fit mb-4 rounded-lg shadow-sm"
                   />
-                  <CardTitle className="text-center md:text-left transition-colors duration-300">
+                  <CardTitle className="font-literata text-center md:text-left transition-colors duration-300">
                     {project.title}
                   </CardTitle>
                 </CardHeader>
@@ -63,7 +66,7 @@ export default function ProjectsSection() {
                         whileTap={{ scale: 0.95 }}
                       >
                         <Link className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
-                        View Website
+                        Visit Website
                       </motion.a>
                   )}
                   <motion.a

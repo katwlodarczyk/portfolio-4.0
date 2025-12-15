@@ -37,7 +37,7 @@ export default function HeroSection() {
         >
           <div className="text-center md:text-left">
             <motion.h1
-              className="text-4xl font-bold mb-2"
+              className="text-4xl font-literata font-bold italic mb-2"
               variants={childVariants}
             >
               Hi, I'm {personalInfo.name}{" "}
@@ -45,7 +45,7 @@ export default function HeroSection() {
             </motion.h1>
 
             <motion.p
-              className="text-xl text-muted-foreground mb-6"
+              className="text-xl text-muted-foreground font-literata mb-6"
               variants={childVariants}
             >
               Web Developer
@@ -100,7 +100,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile2.jpg"
+                src="/portfolio-4.0/profile2.jpg"
                 alt="Profile"
                 className="w-[250px] md:w-[300px] rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -111,7 +111,7 @@ export default function HeroSection() {
 
         <MotionWrapper>
           <div className="hidden">
-            <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
+            <div className="text-muted-foreground pl-4 py-2 mb-4 relative font-literata">
               <div className="flex flex-col gap-2">
                 <span>
                 A creative web developer blending design and development to craft engaging digital experiences.
@@ -127,7 +127,7 @@ export default function HeroSection() {
             <div className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               <div className="flex flex-col gap-2">
-                <span className="text-lg font-semibold">
+                <span className="text-lg font-semibold font-literata">
                   With a background in both design and code, I thrive in environments where creativity meets functionality.
                 </span>
                 <span>
