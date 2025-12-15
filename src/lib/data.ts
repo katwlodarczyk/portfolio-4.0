@@ -97,7 +97,7 @@ export const skills = {
 
 export const projects = [
   {
-    image: "/portfolio-4.0/projects/haircare-scan.png",
+    image: "/projects/haircare-scan.png",
     title: "Haircare Scan",
     website: "https://haircare-scan.web.app/",
     github: "https://github.com/katwlodarczyk/haircare-scan",
@@ -109,7 +109,7 @@ export const projects = [
     ],
   },
   {
-    image: "/portfolio-4.0/projects/student-cookbook.png",
+    image: "/projects/student-cookbook.png",
     title: "Student Cookbook",
     website: "https://cookbook-53824.web.app/login",
     github: "https://github.com/katwlodarczyk/student-cookbook",
@@ -119,7 +119,7 @@ export const projects = [
     ],
   },
   {
-    image: "/portfolio-4.0/projects/poi.png",
+    image: "/projects/poi.png",
     title: "Points of Interest",
  
     github: "https://github.com/katwlodarczyk/Points-Of-Interest-web-app",
@@ -129,7 +129,7 @@ export const projects = [
     ],
   },
   {
-    image: "/portfolio-4.0/projects/interaction-design.png",
+    image: "/projects/interaction-design.png",
     title: "Interaction Design",
     website: "https://katwlodarczyk.github.io/interaction-design/",
     github: "https://github.com/katwlodarczyk/interaction-design",
@@ -139,7 +139,7 @@ export const projects = [
     ],
   },
   {
-    image: "/portfolio-4.0/projects/toggle.png",
+    image: "/projects/toggle.png",
     title: "Toggle Switch",
     github: "https://github.com/katwlodarczyk/toggle-switch-react",
     description: [
@@ -148,7 +148,7 @@ export const projects = [
     ],
   },
   {
-    image: "/portfolio-4.0/projects/databases.png",
+    image: "/projects/databases.png",
     title: "Introduction to Databases",
     github: "https://github.com/katwlodarczyk/databases-swd406",
     description: [

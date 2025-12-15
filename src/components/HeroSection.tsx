@@ -100,7 +100,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/portfolio-4.0/profile2.jpg"
+                src="/profile2.jpg"
                 alt="Profile"
                 className="w-[250px] md:w-[300px] rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
