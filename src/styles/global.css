@@ -3,54 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-ultralight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-ultralightitalic.otf') format('opentype');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-italic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-ultrabold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Editorial Old';
-  src: url('/portfolio-4.0/fonts/editorial-old/ppeditorialold-ultrabolditalic.otf') format('opentype');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -181,9 +133,6 @@
   }
   .font-sans {
     font-family: var(--font-sans);
-  }
-  .font-hero {
-    font-family: var(--font-hero);
   }
   .font-literata {
     font-family: 'Literata', serif;
